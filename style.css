@@ -1,215 +1,306 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    background-color: #ffffff;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    font-family: "Audiowide", sans-serif;
-    background-color: #ffffff;
-    color: #000000;
-    border-bottom: 10px solid #4f5055;
-  }
-  
-  header h1 {
-    font-size: 48px;
-    text-shadow: 3px 3px 3px #ababab;
-  }
-  
-  nav {
-    font-size: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-  }
-  
-  a {
-    color: #000000;
-    font-size: 16px;
-    font-family: "SuiseeIntl-Regular", sans-serif;
-    text-decoration: none;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  .header-buttons {
-    display: flex;
-    align-items: center;
-    font-family: "SuisseIntl-Regular", sans-serif;
-  } 
+body {
+  background-color: #ffffff;
+}
 
-  .header-buttons button {
-    margin-left: 10px;
-    padding: 8px 16px;
-    border: 1px solid #000000;;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Audiowide", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 1px solid #4f5055;
+}
 
-  .header-buttons button:nth-child(1) {
-    background-color: #fff;
-    color: #000;
-  }
-  
-  .header-buttons button:nth-child(2) {
-    background-color: #444;
-    color: #fff;
-  }
+header h1 {
+  font-size: 48px;
+  text-shadow: 3px 3px 3px #ababab;
+}
 
-  .header-buttons button:hover {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .search-bar {
-    display: flex;
-    align-items: center;
-    border: 1px solid #000000;
-    padding: 5px;
-    margin-left: 20px;
-  }
-  
-  .search-bar input[type="text"] {
-    padding: 8px;
-    border: none;
-    width: 850px;
-  }
-  
-  .search-bar button {
-    background-color: #fff;
-    color: #000;
-    cursor: pointer;
-  }
+nav {
+  font-size: 20px;
+}
 
-  .header-nav {
-    text-align: center;
-    background-color: #ebe6e6;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .header-nav ul {
-    list-style-type: none;
-  }
-  
-  .header-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .header-nav a {
-    color: #000000;
-    font-size: 18px;
-    font-family: "SuiseeIntl-Medium", sans-serif;
-    text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-  }
-  
-  .header-nav a:hover {
-    border-bottom: 2px solid #000000;
-  }
-  
-  .banner1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    width: 1246px; /* Updated */
-    height: 394px
-  }
-  
-  
-  main {
-    padding-top: 30px;
-  }
+nav ul {
+  list-style-type: none;
+}
 
-  h2 {
-    color: #000000;
-    font-size: 18px;
-    font-family: "SuiseeIntl-Medium", sans-serif;
-    padding-left: 338px;
-  }
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .box {
-    width: 190.66px; /* Updated */
-    height: 249.5px; /* Updated */
-    margin: 10px;
-    padding: 10px;
-    border: 0.5px solid #e4dddd;
-    text-align: left;
-    box-sizing: border-box; /* Added */
-  }
-  
-  .shoe-image {
-    object-fit: contain;
-    max-width: 100%;
-  }
-  
-  .shoe-name {
-    text-align: left;
-    font-family: "SuiseeIntl-Regular", sans-serif;
-    font-size: 14px;
-  }
-  
-  .shoe-info {
-    font-size: 14px;
-    margin-top: 5px;
-    text-align: left;
-  }
-  
-  .shoe-info-line {
-    margin-bottom: 5px;
-  }
-  
-  .label {
-    font-size: 12px;
-    font-family: "SuiseeIntl-Regular", sans-serif;
-    color: #888;
-  }
-  
-  .value {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "SuiseeIntl-Regular", sans-serif;
-  }
+a {
+  color: #000000;
+  font-size: 16px;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+  text-decoration: none;
+}
 
-  .labelowest {
-    font-size: 12px;
-    font-family: "SuiseeIntl-Regular", sans-serif;
-    background-color: #eee;
-    width: 94.47px;
-    height: 22px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-  }
-  
-  
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+.header-buttons {
+  display: flex;
+  align-items: center;
+  font-family: "SuisseIntl-Regular", sans-serif;
+}
 
-  
+.header-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-buttons button:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+}
+
+.header-buttons button:nth-child(2) {
+  background-color: #444;
+  color: #fff;
+}
+
+.header-buttons button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: none;
+  width: 850px;
+}
+
+.search-bar button {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.header-nav {
+  text-align: center;
+  background-color: #fdf3f3;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.header-nav ul {
+  list-style-type: none;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header-nav a {
+  color: #000000;
+  font-size: 18px;
+  font-family: "SuiseeIntl-Medium", sans-serif;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.header-nav a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.banner1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width: 1246px; /* Updated */
+  height: 394px;
+}
+
+main {
+  padding-top: 30px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 18px;
+  font-family: "SuiseeIntl-Medium", sans-serif;
+  padding-left: 330px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 190.66px; /* Updated */
+  height: 249.5px; /* Updated */
+  margin: 10px;
+  padding: 10px;
+  border: 0.5px solid #e4dddd;
+  text-align: left;
+  box-sizing: border-box; /* Added */
+}
+
+.shoe-image {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.shoe-name {
+  text-align: left;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+  font-size: 14px;
+}
+
+.shoe-info {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.shoe-info-line {
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 12px;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+  color: #888;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+}
+
+.labelowest {
+  font-size: 12px;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+  background-color: #eee;
+  width: 94.47px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #000000; /* Change the background color to black */
+  padding: 32px 32px 0;
+  text-align: center;
+  color: #ffffff; /* Change the text color to white */
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 340px;
+  margin-top: 40px;
+}
+
+.footer-column {
+  flex-basis: calc(16.666% - 10px);
+}
+
+.bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 340px;
+}
+
+.white-h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  font-family: "GesturaText-Regular", serif;
+  font-size: 32px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+}
+
+.footer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-li {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: "SuiseeIntl-Regular", sans-serif;
+}
+
+.bottom-row .footer-column {
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+@media (max-width: 960px) {
+  .bottom-row .footer-column {
+    margin-right: 0;
+  }
+}
+
+.separator-line {
+  width: 65%;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-button:hover {
+  background-color: #fff;
+  color: #000;
+}

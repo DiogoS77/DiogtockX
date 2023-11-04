@@ -1,137 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DiogtockX - Your Sneaker Marketplace</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>DiogtockX</h1>
-    <div class="search-bar">
-      <input type="text" placeholder="Search for products...">
-    </div>
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiogtockX - Your Sneaker Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DiogtockX</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Browse</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sell</a></li>
+          <li class="bell"><a href="#">&#x1F514;</a></li>
+          <li>
+            <div class="header-buttons">
+              <button>Log in</button>
+              <button>Sign Up</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="header-nav">
       <ul>
-        <li><a href="#">New</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Sell</a></li>
-        <li>
-          <div class="header-buttons">
-            <button>Log in</button>
-            <button>Sign Up</button>
-          </div>
-        </li>
+        <li><a href="#">Sneakers</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Apparel</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Trading Cards</a></li>
+        <li><a href="#">Collectibles</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
       </ul>
     </nav>
-  </header>
-  <nav class="header-nav">
-    <ul>
-      <li><a href="#">Sneakers</a></li>
-      <li><a href="#">Shoes</a></li>
-      <li><a href="#">Apparel</a></li>
-      <li><a href="#">Accessories</a></li>
-      <li><a href="#">Electronics</a></li>
-      <li><a href="#">Trading Cards</a></li>
-      <li><a href="#">Collectibles</a></li>
-      <li><a href="#">Men</a></li>
-      <li><a href="#">Women</a></li>
-      <li><a href="#">Kids</a></li>
-    </ul>
-  </nav>
-  <img class="banner1" src="./images/banner1.jpg" alt="Main Banner">
-  <main>
-    <h2>Recommended For You</h2>
-    <section class="recommended-section">
-      <div class="container">
-        <div class="box">
-          <img class="shoe-image" src="./images/Nike-Dunk-Low-Industrial-Blue-Sashiko-Product.jpg" alt="Shoe 1">
-          <div class="shoe-name">Nike Dunk Low Industrial Blue Sashiko</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£100</div>
+    <img class="banner1" src="./images/banner1.jpg" alt="Main Banner" />
+    <main>
+      <h2>Recommended For You</h2>
+      <section class="recommended-section">
+        <div class="container">
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/Nike-Dunk-Low-Industrial-Blue-Sashiko-Product.jpg"
+              alt="Shoe 1"
+            />
+            <div class="shoe-name">Nike Dunk Low Industrial Blue Sashiko</div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£100</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £101</div>
+              </div>
             </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £101</div>
+          </div>
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/Nike-Dunk-Low-Warmth-Pack-Product.jpg"
+              alt="Shoe 2"
+            />
+            <div class="shoe-name">Nike Dunk Low Warmth Pack</div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£271</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £177</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/Air-Jordan-1-Retro-High-Dark-Mocha-2.jpg"
+              alt="Shoe 3"
+            />
+            <div class="shoe-name">Jordan 1 Retro High Dark Mocha</div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£340</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £340</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/adidas-Yeezy-Slide-Black-Product.jpg"
+              alt="Shoe 4"
+            />
+            <div class="shoe-name">
+              adidas Yeezy Slide Onyx &#40;2022/2023&#41;
+            </div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£80</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £115</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/Air-Jordan-4-Retro-Midnight-Navy-GS.jpg"
+              alt="Shoe 5"
+            />
+            <div class="shoe-name">Jordan 4 Retro Midnight Navy (GS)</div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£155</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £207</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              class="shoe-image"
+              src="./images/Air-Jordan-1-Retro-Low-OG-Black-Cement-Product.jpg"
+              alt="Shoe 6"
+            />
+            <div class="shoe-name">Jordan 1 Retro Low OG Black Cement</div>
+            <div class="shoe-info">
+              <div class="shoe-info-line">
+                <div class="label">Lowest Ask:</div>
+                <div class="value">£124</div>
+              </div>
+              <div class="shoe-info-line">
+                <div class="labelowest">Last Sale: £144</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="box">
-          <img class="shoe-image" src="./images/Nike-Dunk-Low-Warmth-Pack-Product.jpg" alt="Shoe 2">
-          <div class="shoe-name">Nike Dunk Low Warmth Pack</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£271</div>
-            </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £177</div>
-            </div>
-          </div>
+      </section>
+    </main>
+    <footer>
+      <h2 class="white-h2">DiogtockX. Access the Now.</h2>
+      <div class="top-row">
+        <div class="footer-column">
+          <h4>Air Jordan</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Air Jordan 1</li>
+            <li class="footer-li">Air Jordan 5</li>
+            <li class="footer-li">Air Jordan 3</li>
+            <li class="footer-li">Air Jordan 11</li>
+            <li class="footer-li">Air Jordan 4</li>
+            <li class="footer-li">Jordan 1 Mid</li>
+          </ul>
         </div>
-        <div class="box">
-          <img class="shoe-image" src="./images/Air-Jordan-1-Retro-High-Dark-Mocha-2.jpg" alt="Shoe 3">
-          <div class="shoe-name">Jordan 1 Retro High Dark Mocha</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£340</div>
-            </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £340</div>
-            </div>
-          </div>
+
+        <div class="footer-column">
+          <h4>Yeezy</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Yeezy Boost 350</li>
+            <li class="footer-li">Yeezy Boost 350 V2</li>
+            <li class="footer-li">Yeezy Boost 700</li>
+            <li class="footer-li">Yeezy 500</li>
+            <li class="footer-li">Yeezy Slides</li>
+            <li class="footer-li">Yeezy Foam RNNR</li>
+          </ul>
         </div>
-        <div class="box">
-          <img class="shoe-image" src="./images/adidas-Yeezy-Slide-Black-Product.jpg" alt="Shoe 4">
-          <div class="shoe-name">adidas Yeezy Slide Onyx &#40;2022/2023&#41;</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£80</div>
-            </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £115</div>
-            </div>
-          </div>
+
+        <div class="footer-column">
+          <h4>Popular Releases</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Nike Dunk Low Panda</li>
+            <li class="footer-li">Air Jordan 4 Retro Thunder (2023)</li>
+            <li class="footer-li">
+              Jordan 1 High OG Spider-Man Across the Spider-Verse
+            </li>
+            <li class="footer-li">Nike Dunk Low Grey Fog</li>
+          </ul>
         </div>
-        <div class="box">
-          <img class="shoe-image" src="./images/Air-Jordan-4-Retro-Midnight-Navy-GS.jpg" alt="Shoe 5">
-          <div class="shoe-name">Jordan 4 Retro Midnight Navy (GS)</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£155</div>
-            </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £207</div>
-            </div>
-          </div>
+
+        <div class="footer-column">
+          <h4>Apparel</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Nike Apparel</li>
+            <li class="footer-li">Essentials</li>
+            <li class="footer-li">Bape Apparel</li>
+            <li class="footer-li">Yeezy Gap</li>
+            <li class="footer-li">Corteiz</li>
+            <li class="footer-li">Supreme Apparel</li>
+          </ul>
         </div>
-        <div class="box">
-          <img class="shoe-image" src="./images/Air-Jordan-1-Retro-Low-OG-Black-Cement-Product.jpg" alt="Shoe 6">
-          <div class="shoe-name">Jordan 1 Retro Low OG Black Cement</div>
-          <div class="shoe-info">
-            <div class="shoe-info-line">
-              <div class="label">Lowest Ask:</div>
-              <div class="value">£124</div>
-            </div>
-            <div class="shoe-info-line">
-              <div class="labelowest">Last Sale: £144</div>
-            </div>
-          </div>
+
+        <div class="footer-column">
+          <h4>Nike</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Nike Dunks</li>
+            <li class="footer-li">Air Force 1</li>
+            <li class="footer-li">Air Max</li>
+            <li class="footer-li">Women's Nikes</li>
+            <li class="footer-li">Nike TN</li>
+            <li class="footer-li">Nike SB</li>
+          </ul>
         </div>
       </div>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 DiogtockX. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+      <div class="bottom-row">
+        <div class="footer-column">
+          <h4>Women's</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Women's Sneakers</li>
+            <li class="footer-li">Women's Shoes</li>
+            <li class="footer-li">Women's Apparel</li>
+            <li class="footer-li">Women's Accessories</li>
+            <li class="footer-li">Handbags</li>
+            <li class="footer-li">Women's Jordans</li>
+          </ul>
+        </div>
 
+        <div class="footer-column">
+          <h4>Accessories</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Swatch X Omega Mission To The Moon</li>
+            <li class="footer-li">Supreme Field Waist Bag</li>
+            <li class="footer-li">Jordan Monogram Duffle Bag</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Size Guides & Tools</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">Shoe Size by Brand</li>
+            <li class="footer-li">Kids Shoes Size Guide</li>
+            <li class="footer-li">Women's Shoe Sizes</li>
+            <li class="footer-li">Men's Shoe Sizes</li>
+            <li class="footer-li">Professional Sellers</li>
+            <li class="footer-li">Scout App</li>
+          </ul>
+        </div>
+      </div>
+      <div class="separator-line"></div>
+      <button class="footer-button">
+        United Kingdom | English(UK) | Currency
+      </button>
+    </footer>
+  </body>
+</html>
