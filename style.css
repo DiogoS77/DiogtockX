@@ -34,7 +34,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 a {
@@ -85,7 +85,7 @@ a {
 .search-bar input[type="text"] {
   padding: 8px;
   border: none;
-  width: 850px;
+  width: 950px;
 }
 
 .search-bar button {
@@ -142,6 +142,8 @@ h2 {
   font-size: 18px;
   font-family: "SuiseeIntl-Medium", sans-serif;
   padding-left: 330px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container {
@@ -303,4 +305,8 @@ h4 {
 .footer-button:hover {
   background-color: #fff;
   color: #000;
+}
+
+.brand-image {
+  padding: 10px;
 }
